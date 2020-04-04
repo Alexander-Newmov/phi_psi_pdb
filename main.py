@@ -35,7 +35,7 @@ if __name__ == "__main__":
 				name = chain.get_full_id()
 				name_str = ''
 				for clever_stuff in name:
-					name_str += ' ' + str(clever_stuff)
+					name_str += str(clever_stuff) + '_'
 
 				poly = Bio.PDB.Polypeptide.Polypeptide(chain)
 
